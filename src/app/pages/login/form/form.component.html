@@ -1,0 +1,8 @@
+<form [formGroup]="formData" autocomplete="off" (ngSubmit)="logIn()">
+  <h1>ENERGY ASSETS APP</h1>
+  <div>
+    <input formControlName="email" type="text" placeholder="E-mail" />
+    <input formControlName="password" type="password" placeholder="Password" />
+  </div>
+  <button [disabled]="formData.invalid">Log in</button>
+</form>

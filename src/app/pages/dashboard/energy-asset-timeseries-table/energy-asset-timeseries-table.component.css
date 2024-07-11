@@ -1,0 +1,13 @@
+div {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: var(--smSpacing);
+}

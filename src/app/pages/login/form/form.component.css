@@ -1,0 +1,28 @@
+form,
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  padding: 0 var(--mdSpacing);
+  gap: var(--lgSpacing);
+}
+
+form h1 {
+  text-align: center;
+}
+
+form div {
+  gap: var(--mdSpacing);
+}
+
+form button {
+  background-color: var(--blue);
+  color: white;
+  border: 0;
+}
+
+form button:disabled {
+  background-color: #4d94ff;
+}

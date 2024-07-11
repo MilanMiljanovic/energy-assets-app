@@ -1,0 +1,37 @@
+:root {
+  --smSpacing: 8px;
+  --mdSpacing: 16px;
+  --lgSpacing: 32px;
+  --blue: #0066ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:disabled {
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input,
+select,
+button {
+  height: 36px;
+  padding: 0 var(--smSpacing);
+}
+
+select,
+button {
+  cursor: pointer;
+}

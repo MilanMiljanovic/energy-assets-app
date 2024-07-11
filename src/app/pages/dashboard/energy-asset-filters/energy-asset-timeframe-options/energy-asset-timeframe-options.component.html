@@ -1,0 +1,12 @@
+<select
+  (change)="selectEnergyAssetTimeframe($event)"
+  [disabled]="getEnergyAssetId() === -1 ? true : false"
+>
+  <option value="-1">Select time frame</option>
+  <option
+    *ngFor="let timeframe of getEnergyAssetTimeframes()"
+    [value]="timeframe.value"
+  >
+    {{ timeframe.name }}
+  </option>
+</select>

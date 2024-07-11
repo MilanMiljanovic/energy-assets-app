@@ -1,0 +1,20 @@
+<div>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Asset ID</th>
+        <th>Timestamp</th>
+        <th>Active power (kW)</th>
+        <th>Voltage (V)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of getTableData()">
+        <td>{{ data.assetId }}</td>
+        <td>{{ data.timestamp }}</td>
+        <td>{{ data.activePower }}</td>
+        <td>{{ data.voltage }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

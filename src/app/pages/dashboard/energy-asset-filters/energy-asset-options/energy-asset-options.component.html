@@ -1,0 +1,6 @@
+<select (change)="selectEnergyAsset($event)">
+  <option value="-1">Select energy asset</option>
+  <option *ngFor="let asset of getEnergyAssets()" [value]="asset.assetId">
+    {{ asset.name }}
+  </option>
+</select>

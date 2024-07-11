@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 var(--mdSpacing);
+  background-color: var(--blue);
+  position: sticky;
+  top: 0;
+}
+
+header a {
+  font-size: 36px;
+}
+
+header a {
+  font-weight: bold;
+  color: white;
+}
